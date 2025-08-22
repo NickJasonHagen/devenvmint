@@ -80,3 +80,4 @@ rm luarocks-3.12.2.tar.gz
 
 #dotfiles for cfg
 sh .dotfiles/setup.sh
+cp -r .doltfiles ~
