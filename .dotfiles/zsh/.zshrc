@@ -5,21 +5,21 @@
 HISTFILE=~/.zsh_history
 
 # source
-plug "$HOME/.config/zsh/aliases.zsh"
-plug "$HOME/.config/zsh/exports.zsh"
+zplug "$HOME/.config/zsh/aliases.zsh"
+zplug "$HOME/.config/zsh/exports.zsh"
 
 # plugins
-plug "$HOME/.config/zsh/plugins/dirpersist.zsh"
+zplug "$HOME/.config/zsh/plugins/dirpersist.zsh"
 
 # plug "esc/conda-zsh-completion"
-plug "zsh-users/zsh-autosuggestions"
-plug "hlissner/zsh-autopair"
-plug "zap-zsh/supercharge"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "hlissner/zsh-autopair"
+zplug "zap-zsh/supercharge"
 # plug "zap-zsh/vim"
-plug "zap-zsh/zap-prompt"
-plug "zap-zsh/fzf"
-plug "zap-zsh/exa"
-plug "zsh-users/zsh-syntax-highlighting"
+zplug "zap-zsh/zap-prompt"
+zplug "zap-zsh/fzf"
+zplug "zap-zsh/exa"
+zplug "zsh-users/zsh-syntax-highlighting"
 
 # keybinds
 bindkey '^ ' autosuggest-accept

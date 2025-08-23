@@ -77,7 +77,7 @@ sudo luarocks install -y
 luasocket
 cd $HOME
 rm luarocks-3.12.2.tar.gz
-
+brew install zplug
 #dotfiles for cfg
 cp -r .dotfiles ~
 sh .dotfiles/setup.sh
