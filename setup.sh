@@ -81,4 +81,17 @@ rm luarocks-3.12.2.tar.gz
 #dotfiles for cfg
 cp -r .dotfiles ~
 sh .dotfiles/setup.sh
+cp -r .dotfiles/alacritty/.config ~
+cp -r .dotfiles/bin/.local ~
+cp -r .dotfiles/git ~
+cp -r .dotfiles/lazygit ~
+cp -r .dotfiles/nvim ~
+cp -r .dotfiles/nvm ~
+cp -r .dotfiles/tmux ~
+cp -r .dotfiles/vim ~
+cp -r .dotfiles/nvm ~
+cp -r .dotfiles/zsh ~
+cp -r profile/.zshrc ~
+cp -r profile/.bashrc ~
+cp -r profile/.zshenv ~
 cp -r .dotfiles/zsh ~
