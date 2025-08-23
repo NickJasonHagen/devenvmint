@@ -79,6 +79,6 @@ cd $HOME
 rm luarocks-3.12.2.tar.gz
 
 #dotfiles for cfg
-sh .dotfiles/setup.sh
 cp -r .dotfiles ~
+sh .dotfiles/setup.sh
 cp -r .dotfiles/zsh ~
