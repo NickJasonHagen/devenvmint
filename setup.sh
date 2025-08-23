@@ -80,6 +80,7 @@ rm luarocks-3.12.2.tar.gz
 brew install zplug
 #dotfiles for cfg
 cp -r profile/.bashrc ~
+cp -r profile/.profile ~
 cp -r .dotfiles ~
 sh ~/.dotfiles/setup.sh
 #cp -r .dotfiles/alacritty/.config ~
