@@ -1,0 +1,24 @@
+lastupdatecheck: 0
+recentrepos:
+    - /home/skorm/projects/blueengine_nscriptv3
+    - /home/skorm/projects/Nscriptv3_lib
+    - /home/skorm/projects/nscriptv3_bin
+    - /home/skorm/Desktop/nscriptserver/2switchincomputerinboeksysteem
+    - /home/skorm/Desktop/nscriptserver
+    - /home/skorm/projects/nscript
+    - /home/skorm/projects/bluenc
+    - /home/skorm/projects/soundlib
+    - /home/skorm/.dotfiles
+startuppopupversion: 5
+lastversion: 0.52.0
+customcommandshistory:
+    - qa!
+    - "yes"
+hidecommandlog: false
+ignorewhitespaceindiffview: false
+diffcontextsize: 2
+renamesimilaritythreshold: 50
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always

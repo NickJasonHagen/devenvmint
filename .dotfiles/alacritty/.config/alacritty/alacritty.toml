@@ -1,0 +1,32 @@
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "t\r"
+key = "F"
+mods = "Control|Shift"
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[general]
+import = ["/home/skorm/.config/alacritty/appearance.toml", "/home/skorm/.config/alacritty/alacritty.local.toml"]
