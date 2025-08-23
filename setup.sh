@@ -13,13 +13,13 @@ sudo apt install -y git
 
 
 #install Tmux
-sudo apt-get install -y tmux 
+sudo apt-get install -y tmux
 
 #build essentials
 sudo apt install -y build-essential libc6 libc6-dev make g++
 
 #install rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh   
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 #install brave
 curl -fsS https://dl.brave.com/install.sh | sh
@@ -41,7 +41,7 @@ sudo mv nvim-linux-x86_64.appimage /usr/bin/nvim
 sudo chmod +x /usr/bin/nvim
 
 #install nodeJS
-sudo apt install -y nodejs 
+sudo apt install -y nodejs
 sudo apt install -y npm
 # Download and install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -73,7 +73,7 @@ wget https://luarocks.org/releases/luarocks-3.12.2.tar.gz
 tar zxpf luarocks-3.12.2.tar.gz
 cd luarocks-3.12.2
 ./configure && make && sudo make install
-sudo luarocks install -y 
+sudo luarocks install -y
 luasocket
 cd $HOME
 rm luarocks-3.12.2.tar.gz
