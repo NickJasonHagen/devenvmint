@@ -62,7 +62,7 @@ npm -v # Should print "10.9.3".
 #golang
 sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable
 sudo apt-get update
-sudo apt-get install golang
+sudo apt-get install -y golang
 
 #tmux
 cargo install tmux-sessionizer
@@ -80,4 +80,5 @@ rm luarocks-3.12.2.tar.gz
 
 #dotfiles for cfg
 sh .dotfiles/setup.sh
-cp -r .doltfiles ~
+cp -r .dotfiles ~
+cp -r .dotfiles/zsh ~
