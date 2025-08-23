@@ -1,6 +1,7 @@
 #!/bin/sh
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
-
+export ZPLUG_HOME=~/.zplug
+source ~/.zplug/init.zsh
 # history
 HISTFILE=~/.zsh_history
 
@@ -61,3 +62,4 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export NSCRIPT_PATH="$HOME/nscript"
 eval "$(pyenv init -)"
+

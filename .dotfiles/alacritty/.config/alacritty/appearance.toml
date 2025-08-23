@@ -33,19 +33,19 @@ blinking = "Never"
 size = 10.0
 
 [font.bold]
-family = "FiraCode Nerd Font"
+family = "Ubuntu Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "FiraCode Nerd Font"
+family = "Ubuntu Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "FiraCode Nerd Font"
+family = "Ubuntu Mono"
 style = "Italic"
 
 [font.normal]
-family = "FiraCode Nerd Font"
+family = "Ubuntu Mono"
 style = "Regular"
 
 [window]
